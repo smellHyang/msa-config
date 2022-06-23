@@ -35,7 +35,7 @@ spring:
     ansi:
       enabled: ALWAYS
   config:
-    import: "optional:configserver:http://localhost:8888/gateway"
+    import: "optional:configserver:http://localhost:8888"
   cloud:
     config:
       discovery:
